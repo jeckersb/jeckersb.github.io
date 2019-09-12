@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>john.eckersberg.com - tech</title><link href="http://john.eckersberg.com/" rel="alternate"></link><link href="http://john.eckersberg.com/feeds/tech.atom.xml" rel="self"></link><id>http://john.eckersberg.com/</id><updated>2015-06-02T16:18:00-04:00</updated><entry><title>Debugging RabbitMQ frame_too_large Error</title><link href="http://john.eckersberg.com/debugging-rabbitmq-frame_too_large-error.html" rel="alternate"></link><published>2015-06-02T16:18:00-04:00</published><author><name>John Eckersberg</name></author><id>tag:john.eckersberg.com,2015-06-02:/debugging-rabbitmq-frame_too_large-error.html/</id><summary type="html">&lt;p&gt;An &lt;a href="https://bugzilla.redhat.com/show_bug.cgi?id=1222005"&gt;interesting
+bug&lt;/a&gt; came to my
+attention today, and upon digging into it, a very sane explanation
+emerged for what initially to me looked like a crazy scenario.&lt;/p&gt;
+&lt;p&gt;Here's the relevant server-side error from the attachment in the bug:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;=INFO REPORT==== 15-May-2015::08:49:46 ===
+accepting AMQP connection &amp;lt;0.783 …&lt;/pre&gt;&lt;/div&gt;</summary><category term="openstack"></category><category term="fedora"></category></entry><entry><title>Improving HA Failures with TCP Timeouts</title><link href="http://john.eckersberg.com/improving-ha-failures-with-tcp-timeouts.html" rel="alternate"></link><published>2015-03-02T10:12:00-05:00</published><author><name>John Eckersberg</name></author><id>tag:john.eckersberg.com,2015-03-02:/improving-ha-failures-with-tcp-timeouts.html/</id><summary type="html">&lt;p&gt;Most people probably don't give too much thought to our old friend,
+TCP.  For the most part, it's just a transparent piece of
+infrastructure that sits between clients and servers, and we focus
+most of our time paying attention to the endpoints, and rightly so.
+Almost always it does the …&lt;/p&gt;</summary><category term="openstack"></category><category term="fedora"></category></entry></feed>
